@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Estoico el Vasto</title>
+
+    <style>
+        
+        .titulo {
+            position: relative;
+            top: 20px;
+            left: 50px;
+        }
+
+        .descripcion {
+            position: relative;
+            top: 15px;
+            left: 52px;
+        }
+
+        body {
+            background-color: #000000;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+
+        .perfil_de_estoico {
+            width: 400px;
+            border-radius: 20px;
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+
+        
+        .perfil_de_estoico2 {
+            width: 600px;
+            height: 600;
+            border-radius: 20px;
+            position: relative;
+            top: 900px;
+            left: 200px;
+        }
+
+
+
+
+        .nombre {
+            position: relative;
+            top: -320px;
+            left: 480px;
+        }
+
+        .edad {
+            position: relative;
+            top: -325px;
+            left: 480px;
+        }
+
+        .peso {
+            position: relative;
+            top: -330px;
+            left: 480px;
+        }
+
+
+        .altura {
+            position: relative;
+            top: -335px;
+            left: 480px;
+        }
+
+        .dragon {
+            position: relative;
+            top: -340px;
+            left: 480px;
+        }
+
+        .especie {
+            position: relative;
+            top: -345px;
+            left: 480px;
+        }
+
+        .intereses {
+            margin-top: -150px;
+            margin-left: 20px;
+        }
+
+        .enlaces {
+            margin-left: 20px;
+        }
+
+        a {
+            color: #00bfff;
+        }
+
+    .intereses li {
+
+        font-size: 25px;
+        padding: 10px;
+
+    }
+
+
+    .boton1 {
+
+        display: inline-block;
+        background-color: #1565c0;
+        color: white;
+        padding: 12px 20px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 18px;
+
+    }
+    .boton1:hover {
+        background-color: #0d47a1;
+    }
+    
+    .boton2 {
+
+        display: inline-block;
+        background-color: #1565c0;
+        color: white;
+        padding: 12px 20px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 18px;
+
+    }
+    .boton2:hover {
+        background-color: #0d47a1;
+    }
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <h1 class="titulo">Perfil de Estoico el Vasto</h1>
+
+    
+
+    <p class="descripcion">
+        Estoico el Vasto es un personaje de la saga
+        <i>Cómo entrenar a tu dragón</i>. Es el jefe de Berk,
+        padre de Hipo y un gran guerrero vikingo.
+    </p>
+    
+
+    <img src="ESTOICO EL VASTO.png" alt="Estoico el Vasto" class="perfil_de_estoico">
+    <img src="ESTOICO EL VASTO2.png" alt="Estoico el Vasto" class="perfil_de_estoico2">
+
+    <h2 class="nombre">Nombre: Estoico el Vasto</h2>
+    <h2 class="edad">Edad: 45 años</h2>
+    <h2 class="peso">Peso: 120 kg</h2>
+    <h2 class="altura">Altura: 2,01 m</h2>
+    <h2 class="dragon">Nombre del dragón: Rompecráneos</h2>
+    <h2 class="especie">Especie: Cuernatronante</h2>
+
+    <div class="intereses">
+        <h1>Intereses</h1>
+
+        <ul>
+            <li>Los dragones</li>
+            <li>La protección de Berk</li>
+            <li>La lucha</li>
+            <li>Su familia</li>
+            <li>Las aventuras</li>
+        </ul>
+    </div>
+
+    <div class="enlaces">
+        <h1>Enlaces</h1>
+
+        <ul>
+            <li>
+                <a href="https://www.dreamworks.com/how-to-train-your-dragon" target="_blank" class="boton1">
+                    Cómo entrenar a tu dragón
+                </a>
+            </li>
+
+            <li>
+                <a href="https://es.wikipedia.org/wiki/C%C3%B3mo_entrenar_a_tu_drag%C3%B3n" target="_blank" class="boton2">
+                    Wikipedia
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
